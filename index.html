@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>string-with-methods</title>
+	<link rel="stylesheet" href="./css/string.css">
+	<link rel="stylesheet" href="./css/bootstrap.css">
+	
+</head>
+<body class="bg-dark text-white supe" >
+	
+	<div class="container">
+	<div class="mt-3 mb-5" >
+		<h1 class="text-warning text-center" >
+		welcome
+		</h1>
+		<div class="my-5" id="" >
+			<p class="text-warning fs-3 fw-bold" >String: <span class="text-white fw-normal" id="stringViewer" >CLICK ON THE "+" ICON.</span></p>
+			<p class="text-warning fs-4 fw-bold" >Length: <span class="text-white fw-normal" id="lenthViewer" >0</span></p>
+		</div>
+	</div>
+	
+	<div class="text-center">
+		<div class="text-warning p-a t-80 l-20 border border-warning p-2 rounded-pill" onclick="upper()">
+			<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+			<path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+			</svg>
+			
+		</div>
+		<div class="text-warning p-a t-80 l-80 border border-warning p-2 rounded-pill" onclick="lower()">
+			<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+			<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+			</svg>
+			
+		</div>
+		<div class="p-a t-80 l-50 p-2 btn btn-outline-warning rounded-pill" onclick="changer()">
+			<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+			<path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+			</svg>
+		</div>
+	</div>
+	
+	
+	</div>
+	
+	<script src="./js/string.js"></script>
+</body>
+</html>
